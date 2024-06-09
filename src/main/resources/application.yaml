@@ -1,0 +1,16 @@
+server:
+  port: 8080
+
+spring:
+  application:
+    name: DAYTASK-MANAGEMENT
+
+  jpa:
+    hibernate:
+      ddl-auto: update
+
+  datasource:
+    url: jdbc:mysql://${MYSQL_HOST:localhost}:3306/day_task_management
+    username: root
+    password: 1234
+    driver-class-name: com.mysql.cj.jdbc.Driver
