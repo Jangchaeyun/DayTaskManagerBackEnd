@@ -26,7 +26,7 @@ public class ApplicationConfiguration {
              )
      ).authorizeHttpRequests(
              Authorize -> Authorize.requestMatchers("/api/**").authenticated().anyRequest().permitAll()
-     ).addFilter(new JwtTokenValidator(), BasicAuthenticationFilter.class)
+     ).addFilterBefore(new JwtTokenValidator(), BasicAuthenticationFilter.class)
              .csrf(csrf -> csrf.disable())
              .cors(cors -> cors.configurationSource(corsConfigurationSouce()))
              .httpBasic(Customizer.withDefaults())
@@ -53,6 +53,6 @@ public class ApplicationConfiguration {
 
     @Bean
     public PasswordEncoder passwordEncoder() {
-        return new BCryptPasswordEncoder()
+        return new BCryptPasswordEncoder();
     }
 }
