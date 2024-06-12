@@ -1,0 +1,16 @@
+server:
+  port: 8080
+
+spring:
+  application:
+    name: TASK-SERVICE
+
+  jpa:
+    hibernate:
+      ddl-auto: create
+
+  datasource:
+    url: jdbc:mysql://${MYSQL_HOST:localhost}:3306/day_task_service
+    username: root
+    password: 1234
+    driver-class-name: com.mysql.cj.jdbc.Driver
