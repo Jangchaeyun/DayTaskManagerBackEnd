@@ -80,4 +80,20 @@ public class TaskController {
 
         return new ResponseEntity<>(tasks, HttpStatus.OK);
     }
+
+    @PutMapping("/{id}/complete")
+    public ResponseEntity<Task> completeTask(
+            @PathVariable Long id) throws Exception {
+        Task tasks = taskService.completeTask(id);
+
+        return new ResponseEntity<>(tasks, HttpStatus.OK);
+    }
+
+    @DeleteMapping("/{id}")
+    public ResponseEntity<Void> deleteTask(
+            @PathVariable Long id) throws Exception {
+        taskService.deleteTask(id);
+
+        return new ResponseEntity<>(HttpStatus.NO_CONTENT);
+    }
 }
