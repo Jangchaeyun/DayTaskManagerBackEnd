@@ -1,6 +1,6 @@
 package com.day.service;
 
-import com.day.model.User;
+import com.day.modal.User;
 import com.day.repository.UserRepository;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.security.core.GrantedAuthority;

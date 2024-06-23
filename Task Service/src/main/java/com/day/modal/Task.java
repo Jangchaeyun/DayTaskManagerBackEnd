@@ -1,4 +1,4 @@
-package com.day.model;
+package com.day.modal;
 
 import jakarta.persistence.Entity;
 import jakarta.persistence.GeneratedValue;

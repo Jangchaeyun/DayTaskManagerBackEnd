@@ -1,6 +1,6 @@
 package com.day.controller;
 
-import com.day.model.User;
+import com.day.modal.User;
 import com.day.service.UserService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.HttpStatus;

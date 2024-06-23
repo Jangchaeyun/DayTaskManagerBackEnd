@@ -1,7 +1,7 @@
 package com.day.service;
 
-import com.day.model.Task;
-import com.day.model.TaskStatus;
+import com.day.modal.Task;
+import com.day.modal.TaskStatus;
 
 import java.util.List;
 

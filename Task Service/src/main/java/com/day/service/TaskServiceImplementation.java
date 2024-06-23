@@ -1,14 +1,12 @@
 package com.day.service;
 
-import com.day.model.Task;
-import com.day.model.TaskStatus;
+import com.day.modal.Task;
+import com.day.modal.TaskStatus;
 import com.day.repository.TaskRepository;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
 import java.time.LocalDateTime;
-import java.util.ArrayList;
-import java.util.Collections;
 import java.util.List;
 import java.util.stream.Collectors;
 

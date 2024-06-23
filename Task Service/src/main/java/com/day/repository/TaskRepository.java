@@ -1,6 +1,6 @@
 package com.day.repository;
 
-import com.day.model.Task;
+import com.day.modal.Task;
 import org.springframework.data.jpa.repository.JpaRepository;
 
 import java.util.List;

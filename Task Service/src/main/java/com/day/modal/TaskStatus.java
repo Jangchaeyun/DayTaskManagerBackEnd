@@ -1,4 +1,4 @@
-package com.day.model;
+package com.day.modal;
 
 public enum TaskStatus {
     PENDING("진행 중"),

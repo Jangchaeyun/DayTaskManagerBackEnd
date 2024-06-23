@@ -1,6 +1,6 @@
 package com.day.service;
 
-import com.day.model.User;
+import com.day.modal.User;
 
 import java.util.List;
 

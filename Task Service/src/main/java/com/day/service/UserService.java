@@ -1,6 +1,6 @@
 package com.day.service;
 
-import com.day.model.UserDto;
+import com.day.modal.UserDto;
 import org.springframework.cloud.openfeign.FeignClient;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.RequestHeader;

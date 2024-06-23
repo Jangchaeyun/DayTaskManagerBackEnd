@@ -9,11 +9,13 @@
         <outputRelativeToContentRoot value="true" />
         <module name="taskservice" />
         <module name="day-task-management" />
+        <module name="TaskSubmissionService" />
       </profile>
     </annotationProcessing>
   </component>
   <component name="JavacSettings">
     <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="TaskSubmissionService" options="-parameters" />
       <module name="day-task-management" options="-parameters" />
       <module name="taskservice" options="-parameters" />
     </option>

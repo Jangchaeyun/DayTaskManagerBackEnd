@@ -1,8 +1,8 @@
 package com.day.controller;
 
-import com.day.model.Task;
-import com.day.model.TaskStatus;
-import com.day.model.UserDto;
+import com.day.modal.Task;
+import com.day.modal.TaskStatus;
+import com.day.modal.UserDto;
 import com.day.service.TaskService;
 import com.day.service.UserService;
 import org.springframework.beans.factory.annotation.Autowired;

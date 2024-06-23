@@ -1,7 +1,7 @@
 package com.day.controller;
 
 import com.day.config.JwtProvider;
-import com.day.model.User;
+import com.day.modal.User;
 import com.day.repository.UserRepository;
 import com.day.request.LoginRequest;
 import com.day.response.AuthResponse;
