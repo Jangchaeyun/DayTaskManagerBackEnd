@@ -13,12 +13,12 @@ import org.springframework.web.bind.annotation.RequestHeader;
 public interface TaskService {
 
     @GetMapping("/api/tasks/{id}")
-    public ResponseEntity<TaskDto> getTaskById(
+    public TaskDto getTaskById(
             @PathVariable Long id,
             @RequestHeader("Authorization") String jwt) throws Exception;
 
     @PutMapping("api/tasks/{id}/complete")
-    public ResponseEntity<Task> completeTask(
+    public Task completeTask(
             @PathVariable Long id
     ) throws Exception;
 }
