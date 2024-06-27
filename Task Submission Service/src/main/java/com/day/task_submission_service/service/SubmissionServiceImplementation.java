@@ -39,12 +39,12 @@ public class SubmissionServiceImplementation implements SubmissionService {
 
     @Override
     public List<Submission> getAllTaskSubmissions() {
-        return submissionRepository.findByTaskId()
+        return submissionRepository.findAll();
     }
 
     @Override
     public List<Submission> getTaskSubmissionsByTaskId(Long taskId) {
-        return submissionRepository.findByTaskId();
+        return submissionRepository.findByTaskId(taskId);
     }
 
     @Override
