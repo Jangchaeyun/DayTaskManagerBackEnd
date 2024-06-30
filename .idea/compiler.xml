@@ -10,6 +10,7 @@
         <module name="taskservice" />
         <module name="day-task-management" />
         <module name="TaskSubmissionService" />
+        <module name="gatway" />
         <module name="task_server" />
       </profile>
     </annotationProcessing>
@@ -18,6 +19,7 @@
     <option name="ADDITIONAL_OPTIONS_OVERRIDE">
       <module name="TaskSubmissionService" options="-parameters" />
       <module name="day-task-management" options="-parameters" />
+      <module name="gatway" options="-parameters" />
       <module name="task_server" options="-parameters" />
       <module name="taskservice" options="-parameters" />
     </option>
